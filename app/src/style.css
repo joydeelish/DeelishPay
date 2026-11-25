@@ -1,0 +1,155 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #101014;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 24px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 35px;
+}
+
+.logo {
+  background: #a855f7;
+  padding: 14px;
+  border-radius: 14px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.logo span {
+  color: #f5d0fe;
+}
+
+h1 {
+  margin: 0;
+  font-size: 23px;
+}
+
+header p, .wallet p {
+  color: #a1a1aa;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.status {
+  margin-left: auto;
+  color: #fbbf24;
+  font-size: 12px;
+}
+
+.wallet {
+  background: linear-gradient(135deg, #35145d, #171321);
+  border: 1px solid #7136a4;
+  border-radius: 18px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.wallet h2 {
+  font-size: 38px;
+  margin: 15px 0;
+}
+
+.wallet span, .notice {
+  color: #aaa;
+  font-size: 12px;
+}
+
+.chat {
+  background: #19191f;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 18px;
+}
+
+#messages {
+  height: 320px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 15px 0;
+}
+
+.bubble {
+  max-width: 85%;
+  padding: 14px;
+  border-radius: 14px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.agent {
+  background: #29242f;
+  align-self: flex-start;
+}
+
+.user {
+  background: #7136a4;
+  align-self: flex-end;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+}
+
+input {
+  flex: 1;
+  min-width: 0;
+  background: #101014;
+  border: 1px solid #444;
+  color: white;
+  padding: 14px;
+  border-radius: 10px;
+}
+
+button {
+  background: #a855f7;
+  color: white;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+.notice {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.review-card {
+  width: 100%;
+  white-space: pre-line;
+  border: 1px solid #7136a4;
+}
+
+.review-card strong {
+  display: block;
+  margin-bottom: 12px;
+}
+
+.review-card button {
+  padding: 12px 16px;
+  margin: 8px 8px 0 0;
+  cursor: pointer;
+}
+
+.cancel-button {
+  background: #39343f;
+}
